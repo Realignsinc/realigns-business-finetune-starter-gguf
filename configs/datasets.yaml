@@ -1,0 +1,15 @@
+# Realigns Hugging Face datasets to fetch.
+# Keep large datasets on Hugging Face. This repo downloads them locally when scripts run.
+
+default_output: data/raw
+
+datasets:
+  - repo_id: realigns/realigns-business-open-data-pack
+    split: train
+    local_name: realigns-business-open-data-pack
+    enabled: true
+
+  - repo_id: realigns/realigns-worldbank-business-indicators
+    split: train
+    local_name: realigns-worldbank-business-indicators
+    enabled: true
