@@ -4,6 +4,23 @@ Open-source starter for fetching Realigns business datasets from Hugging Face an
 
 This repository stores code, configs, and examples only. Large datasets and model files should stay on Hugging Face or local storage.
 
+## Business-focused model direction
+
+Realigns GGUF model workflows are intended for business-focused AI models, not general-purpose chatbot datasets.
+
+The training direction is focused on practical business use cases, including:
+
+- SaaS products
+- API integrations
+- business operations
+- sales and marketing workflows
+- finance and accounting support
+- ecommerce and customer support
+- document analysis for business records
+- private company knowledge assistants
+
+The goal is to avoid unnecessary unrelated data and keep the fine-tuned model aligned with business, SaaS, and integration tasks.
+
 ## What this repo does
 
 - Fetch public Realigns datasets from Hugging Face
